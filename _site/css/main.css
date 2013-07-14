@@ -1,0 +1,205 @@
+/*
+
+CSS DOCUMENT - BDHARVA.COM
+Author: Benjamin Harvatine (bdharva.com)
+Updated: Saturday, July 13, 2013
+
+*/
+
+html{
+    background-image:url('/assets/paper_fibers.png');
+    background-repeat:repeat;
+    width:100%
+}
+
+body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:200;
+    font-size:18px;
+    color:rgb(100,100,100);
+}
+
+.navbar{
+    height:60px;
+    width:90%;
+    position:fixed;
+    top:0;
+    display:block;
+    padding-left:5%;
+    padding-right:5%;
+    background:rgb(70,70,70);
+    z-index:999;
+}
+
+.nav{
+    margin:0 -10px 0 -10px;
+    padding:0;
+    line-height:60px;
+}
+
+.nav.left{
+    float:left;
+}
+
+.nav.right{
+    float:right;
+}
+
+.nav li{
+    padding:0;
+    display:inline;
+    float:left;
+    color:rgb(255,255,255);
+}
+
+.nav.left li{
+    margin:0 0 0 20px;
+    color:rgb(255,127,42);
+}
+
+.nav.right li{
+    margin:0 20px 0 0;
+    opacity:0.7;
+}
+
+.nav.right li:hover{
+    opacity:1.0;
+    text-decoration:underline;
+}
+
+li.active{
+    opacity:1.0;
+    text-decoration:underline;
+}
+
+.nav li a{
+    text-decoration:none;
+    color:rgb(255,255,255);
+}
+
+li img{
+    margin:10px 0 0 0;
+}
+
+.title{
+    font-weight:400;
+}
+
+.shadow{
+    height:5px;
+    width:100%;
+    position:fixed;
+    top:60px;
+    display:block;
+    z-index:998;
+    background-image:url('../assets/shadow1.png');
+    background-repeat:repeat-x;
+}
+
+.wrapper{
+    height:auto;
+    width:100%;
+    position:relative;
+    display:block;
+    margin:60px 0 0 0;
+}
+
+h1{
+    margin:0 0 18px 0;
+    font-size:72px;
+    font-weight:400;
+    text-align:center;
+    color:rgb(255,127,42);
+}
+
+h2{
+    margin:60px 0 18px 0;
+    font-size:36px;
+    font-weight:400;
+    text-align:center;
+    color:rgb(255,127,42);
+}
+
+h3{
+    margin:0px 0 18px 0;
+    font-size:36px;
+    font-weight:200;
+    text-align:center;
+    color:rgb(255,127,42);
+}
+
+h4{
+    font-size:24px;
+    font-weight:200;
+    text-align:center;
+    color:rgb(255,127,42);
+}
+
+h5{
+    font-size:18px;
+    font-weight:200;
+    text-align:center;
+    line-height:28px;
+}
+
+p{
+    font-size:18px;
+    font-weight:200;
+    text-align:justify;
+}
+
+a{
+    text-decoration:underline;
+    color:rgb(128,128,128);
+}
+
+.ruler{
+    height:1px;
+    width:100%;
+    position:relative;
+    background:rgb(204,204,204);
+}
+
+.section{
+    height:auto;
+    width:90%;
+    padding:5%;
+}
+
+.section.dark{
+    background:rgba(0,0,0,0.1);
+}
+
+.container{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.pane{
+    position:relative;
+    display:inline-block;
+    float:middle;
+    width:310px;
+    height:auto;
+    margin:0 20px;
+}
+
+.pane img{
+    
+}
+
+@media (max-width:1024px){}
+@media (max-width:768px){}
+@media (max-width:568px){
+    #slider{
+        height:400px;
+    }
+}
+@media (max-width:480px){}
+@media (max-width:320px){}
