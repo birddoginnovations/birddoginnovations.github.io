@@ -185,17 +185,38 @@ a{
     position:relative;
     display:inline-block;
     float:middle;
-    width:310px;
+    width:29%;
     height:auto;
-    margin:20px;
+    margin:2%;
 }
 
 .pane img{
     
 }
 
-@media (max-width:1024px){}
-@media (max-width:768px){}
+@media (max-width:1024px){
+    .pane{
+        width:80%;
+        margin: 20px 10%;
+    }
+}
+@media (max-width:768px){
+    
+    h1{
+        font-size:64px;
+    }
+    h2{
+        font-size:28px;
+    }
+    h3{
+        font-size:28px;
+    }
+}
 @media (max-width:568px){}
-@media (max-width:480px){}
+@media (max-width:480px){
+    .pane{
+        width:100%;
+        margin: 15px 0;
+    }
+}
 @media (max-width:320px){}
